@@ -1,0 +1,10 @@
+import datetime
+X = datetime.datetime.now()
+year = lambda x: x.year
+month = lambda x: x.month
+day = lambda x: x.day
+t = lambda x: x.time()
+print(year(X))
+print(month(X))
+print(day(X))
+print(t(X))
