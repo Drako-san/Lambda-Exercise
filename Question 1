@@ -1,0 +1,7 @@
+Add = lambda x : x + 15
+Multi = lambda x,y : x*y
+x = int(input("add:"))
+print(Add(x))
+X = int(input("number for x:"))
+Y = int(input("number for y:"))
+print(Multi(X,Y))
