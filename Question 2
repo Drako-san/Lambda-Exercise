@@ -1,0 +1,3 @@
+x = lambda x:x*7
+y = int(input("number:"))
+print(x(y))
